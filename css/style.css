@@ -1,0 +1,37 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+#operations {
+  text-align: center;
+  margin-top: 35vh;
+  font-size: 50px;
+}
+#plusbutton, #minusbutton {
+  font-size: 50px;
+  background-color: rgb(157, 157, 157);
+  color: white;
+  height: 73px;
+  width: 73px;
+  border-radius: 10px;
+}
+#text {
+  font-size: 50px;
+  border: 2px solid rgb(157, 157, 157);
+  height: 70px;
+  width: 120px;
+  border-radius: 10px;
+  text-align: center;
+}
+#plusbutton:hover {
+  background-color: white;
+  color: rgb(157, 157, 157);
+}
+#minusbutton:hover {
+  background-color: white;
+  color: rgb(157, 157, 157);
+}
+#result {
+  font-family: Arial;
+  font-size: 60px;
+}
