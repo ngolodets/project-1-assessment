@@ -12,10 +12,13 @@ document.addEventListener("DOMContentLoaded", function(e) {
   resultText = document.getElementById("result");
   plusBttn = document.getElementById("plusbutton");
   textInput = document.getElementById("text");
+  textInput.value = "1";
+  numberInput = parseInt(textInput.value);
   minusBttn = document.getElementById("minusbutton");
 
   textInput.addEventListener("input", function(e) {
     textInputValue = e.target.value;
+    console.log(textInput.value);
     numberInput = parseInt(textInputValue, 10);
     console.log(numberInput);
   })
